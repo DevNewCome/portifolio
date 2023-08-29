@@ -38,6 +38,10 @@ a {
   /*color: white;*/
 }
 
+.hide {
+  display: none;
+}
+
 .menu-nav {
   display: flex;
   justify-content: space-around;
@@ -48,6 +52,7 @@ a {
   transition: all 0.5s;
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 .menu-nav h3 {
   display: flex;
@@ -309,7 +314,141 @@ a {
   border-radius: 10px;
   padding: 2rem;
 }
+.content-projects .btn-preview {
+  border-radius: 20px;
+  padding: 10px;
+  width: 80px;
+  cursor: pointer;
+  border: 1px solid #d5d5d8;
+  background: none;
+  color: white;
+  margin-top: 10px;
+}
+.content-projects .btn-preview:hover {
+  color: #232833;
+  border: 2px solid #282A36;
+  background-color: rgb(177, 177, 177);
+}
 .content-projects .projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-repeat: none;
+  opacity: 0.9;
+  background-size: 100% 100%;
+  border: 2px solid rgb(120, 120, 121);
+  padding: 3rem;
+  min-width: 250px;
+  min-height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content-projects .projects .projects-review {
+  background-repeat: none;
+  opacity: 0.9;
+  background-size: 100% 100%;
+  position: relative;
+  border: 2px solid rgb(120, 120, 121);
+  padding: 3rem;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content-projects .projects .projects-title {
+  color: #DCDADE;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.content-projects .projects .projects-description {
+  display: flex;
+  flex-wrap: wrap;
+  color: #DCDADE;
+  margin-top: 2.5rem;
+  font-size: 18px;
+}
+.content-projects .projects .git-icon {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+  border-radius: 50% solid black;
+  height: 50px;
+  width: 50px;
+}
+.content-projects .projects .git-icon .git-icon-img {
+  width: 50px;
+  height: 50px;
+}
+.content-projects .projects {
+  background-repeat: none;
+  opacity: 0.9;
+  background-size: 100% 100%;
+  position: relative;
+  border: 2px solid rgb(120, 120, 121);
+  padding: 3rem;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content-projects .projects .projects-review1 {
+  background-repeat: none;
+  opacity: 0.9;
+  background-size: 100% 100%;
+  position: relative;
+  border: 2px solid rgb(120, 120, 121);
+  padding: 3rem;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content-projects .projects .projects-title {
+  color: #DCDADE;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.content-projects .projects .projects-description {
+  display: flex;
+  flex-wrap: wrap;
+  color: #DCDADE;
+  margin-top: 2.5rem;
+  font-size: 18px;
+}
+.content-projects .projects .git-icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+  border-radius: 50% solid black;
+  height: 50px;
+  width: 50px;
+}
+.content-projects .projects .git-icon .git-icon-img {
+  width: 50px;
+  height: 50px;
+}
+.content-projects .projects {
+  background-image: url();
+  background-repeat: none;
+  opacity: 0.8;
+  background-size: cover;
+  position: relative;
+  border: 2px solid rgb(120, 120, 121);
+  padding: 3rem;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.content-projects .projects .projects-review2 {
+  background-repeat: none;
+  opacity: 0.9;
+  background-size: 100% 100%;
   position: relative;
   border: 2px solid rgb(120, 120, 121);
   padding: 3rem;
@@ -430,6 +569,11 @@ footer p {
     flex-wrap: wrap !important;
     max-width: 100% !important;
     word-wrap: break-word !important;
+  }
+}
+@media (max-width: 400px) {
+  .git-icon {
+    display: none;
   }
 }
 

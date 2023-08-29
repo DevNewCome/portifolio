@@ -40,7 +40,9 @@ a{
     /*color: white;*/
 }
 
-
+.hide{
+    display: none
+}
 
 .menu-nav{
     display: flex;
@@ -52,6 +54,7 @@ a{
     transition: all 0.5s;
     position: fixed;
     width: 100%;
+    z-index: 10;
 
     h3{
         display: flex;
@@ -342,8 +345,44 @@ button{
     background-color: #31343C;
     border-radius: 10px;
     padding: 2rem;
+    
+    .btn-preview{
+        border-radius: 20px;
+        padding: 10px;
+        width: 80px;
+        cursor: pointer;
+        border: 1px solid #d5d5d8;
+        background: none;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .btn-preview:hover{
+        color: #232833;
+        border: 2px solid #282A36;
+        background-color: rgb(177, 177, 177);
+    }
+
 
     .projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-repeat: none;
+    opacity: 0.9;
+    background-size: 100% 100%;
+   
+    border: 2px solid rgb(120, 120, 121);
+    padding: 3rem;
+    min-width: 250px;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    .projects-review{
+    background-repeat: none;
+    opacity: 0.9;
+    background-size: 100% 100%;
     position: relative;
     border: 2px solid rgb(120, 120, 121);
     padding: 3rem;
@@ -351,6 +390,9 @@ button{
     height: 250px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    
 
     .projects-title{
         color: #DCDADE;
@@ -368,8 +410,7 @@ button{
        
     }
 
-    .git-icon{
-        position: absolute;
+    .git-icon{      
         left: 50%;
         transform: translateX(-50%);
         bottom: 40px;
@@ -383,7 +424,129 @@ button{
         }
     }
     }
+
+    .projects{
+        background-repeat: none;
+        opacity: 0.9;
+        background-size: 100% 100%;
+        position: relative;
+        border: 2px solid rgb(120, 120, 121);
+        padding: 3rem;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+        .projects-review1{
+            background-repeat: none;
+            opacity: 0.9;
+            background-size: 100% 100%;
+            position: relative;
+            border: 2px solid rgb(120, 120, 121);
+            padding: 3rem;
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            }
+        
+    
+        
+    
+        .projects-title{
+            color: #DCDADE;
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+            text-decoration: underline;
+        }
+        .projects-description{
+            display: flex;
+            flex-wrap: wrap;
+            color: #DCDADE;
+            margin-top: 2.5rem;
+            font-size: 18px;
+           
+        }
+    
+        .git-icon{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 40px;
+            border-radius: 50% solid black;
+            height: 50px;
+            width: 50px;
+    
+            .git-icon-img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+        }
+
+        .projects{
+            background-image: url();
+            background-repeat: none;
+            opacity: 0.8;
+            background-size: cover;
+            position: relative;
+            border: 2px solid rgb(120, 120, 121);
+            padding: 3rem;
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        
+            .projects-review2{
+                background-repeat: none;
+                opacity: 0.9;
+                background-size: 100% 100%;
+                position: relative;
+                border: 2px solid rgb(120, 120, 121);
+                padding: 3rem;
+                width: 250px;
+                height: 250px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                }
+            
+            
+        
+            .projects-title{
+                color: #DCDADE;
+                display: flex;
+                justify-content: center;
+                font-size: 18px;
+                text-decoration: underline;
+            }
+            .projects-description{
+                display: flex;
+                flex-wrap: wrap;
+                color: #DCDADE;
+                margin-top: 2.5rem;
+                font-size: 18px;
+               
+            }
+        
+            .git-icon{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 40px;
+                border-radius: 50% solid black;
+                height: 50px;
+                width: 50px;
+        
+                .git-icon-img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            }
 }
+
+
 
 footer{
     display: flex;
@@ -480,3 +643,11 @@ footer{
     }
   
 }
+
+@media(max-width: 400px){
+    .git-icon{
+       display: none;
+    }
+}
+
+
