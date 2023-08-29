@@ -35,7 +35,8 @@ body {
 a {
   list-style: none;
   text-decoration: none;
-  /*color: white;*/
+  list-style: none;
+  color: white;
 }
 
 .hide {
@@ -146,6 +147,10 @@ a {
 .banner .content-btn {
   display: flex;
   justify-content: center;
+}
+.banner .content-btn .btnCurriculo a {
+  list-style: none;
+  text-decoration: none;
 }
 .banner .contato-icon {
   display: flex;
@@ -549,6 +554,9 @@ footer p {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+  .ulli li {
+    color: black;
   }
   .text-left, button {
     margin: 0 auto;

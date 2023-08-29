@@ -37,7 +37,8 @@ body{
 a{
     list-style: none;
     text-decoration: none;
-    /*color: white;*/
+    list-style: none;
+    color: white;
 }
 
 .hide{
@@ -160,6 +161,11 @@ button{
 .content-btn{
     display: flex;
     justify-content: center;
+
+    .btnCurriculo a{
+        list-style: none;
+        text-decoration: none;
+    }
 }
 
 .contato-icon{
@@ -617,7 +623,10 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        margin: 0 auto; 
+    }
+    .ulli li{
+       color: black; 
     }
     .text-left, button{
         margin: 0 auto;
