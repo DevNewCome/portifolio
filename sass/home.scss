@@ -3,7 +3,7 @@
    --backgroundblack: #111419;
    --backgroundwhite: #DCDADE;
    --colorfontWhite: #DCDADE;
-   --colorfontBlack: #232833;
+   --colorfontBlack: #31343C;
    }
 
    .light{
@@ -14,7 +14,7 @@
     transition:0.2s;
    }
    .web{
-    --colorfontBlack: #232833;
+    --colorfontBlack: #31343C;
    }
    .title{
     color: black;
@@ -133,7 +133,7 @@ a{
     .web{
             font-size: 55px;  
             text-transform: uppercase;  
-            color: #232833
+            color: #31343C
     }
 
  
@@ -210,7 +210,7 @@ button{
         text-transform: uppercase;
         color: #DCDADE
     }
-    .content{
+    #content{
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -252,7 +252,7 @@ button{
 } // FIM SOBRE MIM
 
 
-.skills{
+#skills{
     max-width: 1180px;
     display: flex;
     justify-content: space-around;
@@ -269,7 +269,7 @@ button{
         justify-content: center;
         align-items: center;
         text-transform: uppercase;
-        color: #232833;
+        color: #31343C;
         margin-left: 4rem;
         text-transform: uppercase;
     }
@@ -310,7 +310,7 @@ button{
         align-items: center;
         justify-content: center;
         text-transform: uppercase;
-        color: #232833;
+        color: #31343C;
     }
 
     .container-soft{
@@ -338,7 +338,7 @@ button{
     color:#DCDADE
 }
 
-.content-projects{
+#content-projects{
     max-width: 100%;
     display:flex;
     justify-content: space-around;
@@ -364,8 +364,8 @@ button{
     }
 
     .btn-preview:hover{
-        color: #232833;
-        border: 2px solid #282A36;
+        color: #31343C;
+        border: 2px solid #31343C;
         background-color: rgb(177, 177, 177);
     }
 
@@ -591,7 +591,7 @@ footer{
 }
 
 @media(max-width: 920px){
-    .skills{
+    #skills{
         display: flex;
         flex-direction: column;
     }

@@ -3,7 +3,7 @@
   --backgroundblack: #111419;
   --backgroundwhite: #DCDADE;
   --colorfontWhite: #DCDADE;
-  --colorfontBlack: #232833;
+  --colorfontBlack: #31343C;
 }
 
 .light {
@@ -15,7 +15,7 @@
   transition: 0.2s;
 }
 .light .web {
-  --colorfontBlack: #232833;
+  --colorfontBlack: #31343C;
 }
 .light .title {
   color: black;
@@ -125,7 +125,7 @@ a {
 .banner .banner-txt .web {
   font-size: 55px;
   text-transform: uppercase;
-  color: #232833;
+  color: #31343C;
 }
 .banner .banner-txt .comun {
   color: #B28756;
@@ -190,7 +190,7 @@ a {
   text-transform: uppercase;
   color: #DCDADE;
 }
-.sobre-mim .content {
+.sobre-mim #content {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -199,7 +199,7 @@ a {
   margin: 0 auto;
   margin-bottom: 5rem;
 }
-.sobre-mim .content .text-left {
+.sobre-mim #content .text-left {
   display: flex;
   flex-direction: column;
   max-width: 500px;
@@ -208,7 +208,7 @@ a {
   line-height: 1.8rem;
   color: #DCDADE;
 }
-.sobre-mim .content .text-left button {
+.sobre-mim #content .text-left button {
   width: 140px;
   border-radius: 20px;
   border: none;
@@ -227,7 +227,7 @@ a {
   overflow: hidden;
 }
 
-.skills {
+#skills {
   max-width: 1180px;
   display: flex;
   justify-content: space-around;
@@ -239,26 +239,26 @@ a {
   padding: 15px;
   margin-top: 2rem;
 }
-.skills .titulo-skills {
+#skills .titulo-skills {
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  color: #232833;
+  color: #31343C;
   margin-left: 4rem;
   text-transform: uppercase;
 }
-.skills .skills-content {
+#skills .skills-content {
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
-.skills .skills-content .container-icons {
+#skills .skills-content .container-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.skills .skills-content .icon {
+#skills .skills-content .icon {
   display: flex;
   width: 80px;
   height: 80px;
@@ -281,7 +281,7 @@ a {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  color: #232833;
+  color: #31343C;
 }
 .soft-skills .container-soft {
   width: 100%;
@@ -305,7 +305,7 @@ a {
   color: #DCDADE;
 }
 
-.content-projects {
+#content-projects {
   max-width: 100%;
   display: flex;
   justify-content: space-around;
@@ -319,7 +319,7 @@ a {
   border-radius: 10px;
   padding: 2rem;
 }
-.content-projects .btn-preview {
+#content-projects .btn-preview {
   border-radius: 20px;
   padding: 10px;
   width: 80px;
@@ -329,12 +329,12 @@ a {
   color: white;
   margin-top: 10px;
 }
-.content-projects .btn-preview:hover {
-  color: #232833;
-  border: 2px solid #282A36;
+#content-projects .btn-preview:hover {
+  color: #31343C;
+  border: 2px solid #31343C;
   background-color: rgb(177, 177, 177);
 }
-.content-projects .projects {
+#content-projects .projects {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -348,7 +348,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.content-projects .projects .projects-review {
+#content-projects .projects .projects-review {
   background-repeat: none;
   opacity: 0.9;
   background-size: 100% 100%;
@@ -360,21 +360,21 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.content-projects .projects .projects-title {
+#content-projects .projects .projects-title {
   color: #DCDADE;
   display: flex;
   justify-content: center;
   font-size: 18px;
   text-decoration: underline;
 }
-.content-projects .projects .projects-description {
+#content-projects .projects .projects-description {
   display: flex;
   flex-wrap: wrap;
   color: #DCDADE;
   margin-top: 2.5rem;
   font-size: 18px;
 }
-.content-projects .projects .git-icon {
+#content-projects .projects .git-icon {
   left: 50%;
   transform: translateX(-50%);
   bottom: 40px;
@@ -382,11 +382,11 @@ a {
   height: 50px;
   width: 50px;
 }
-.content-projects .projects .git-icon .git-icon-img {
+#content-projects .projects .git-icon .git-icon-img {
   width: 50px;
   height: 50px;
 }
-.content-projects .projects {
+#content-projects .projects {
   background-repeat: none;
   opacity: 0.9;
   background-size: 100% 100%;
@@ -398,7 +398,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.content-projects .projects .projects-review1 {
+#content-projects .projects .projects-review1 {
   background-repeat: none;
   opacity: 0.9;
   background-size: 100% 100%;
@@ -410,21 +410,21 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.content-projects .projects .projects-title {
+#content-projects .projects .projects-title {
   color: #DCDADE;
   display: flex;
   justify-content: center;
   font-size: 18px;
   text-decoration: underline;
 }
-.content-projects .projects .projects-description {
+#content-projects .projects .projects-description {
   display: flex;
   flex-wrap: wrap;
   color: #DCDADE;
   margin-top: 2.5rem;
   font-size: 18px;
 }
-.content-projects .projects .git-icon {
+#content-projects .projects .git-icon {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -433,11 +433,11 @@ a {
   height: 50px;
   width: 50px;
 }
-.content-projects .projects .git-icon .git-icon-img {
+#content-projects .projects .git-icon .git-icon-img {
   width: 50px;
   height: 50px;
 }
-.content-projects .projects {
+#content-projects .projects {
   background-image: url();
   background-repeat: none;
   opacity: 0.8;
@@ -450,7 +450,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.content-projects .projects .projects-review2 {
+#content-projects .projects .projects-review2 {
   background-repeat: none;
   opacity: 0.9;
   background-size: 100% 100%;
@@ -462,21 +462,21 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.content-projects .projects .projects-title {
+#content-projects .projects .projects-title {
   color: #DCDADE;
   display: flex;
   justify-content: center;
   font-size: 18px;
   text-decoration: underline;
 }
-.content-projects .projects .projects-description {
+#content-projects .projects .projects-description {
   display: flex;
   flex-wrap: wrap;
   color: #DCDADE;
   margin-top: 2.5rem;
   font-size: 18px;
 }
-.content-projects .projects .git-icon {
+#content-projects .projects .git-icon {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -485,7 +485,7 @@ a {
   height: 50px;
   width: 50px;
 }
-.content-projects .projects .git-icon .git-icon-img {
+#content-projects .projects .git-icon .git-icon-img {
   width: 50px;
   height: 50px;
 }
@@ -522,7 +522,7 @@ footer p {
   }
 }
 @media (max-width: 920px) {
-  .skills {
+  #skills {
     display: flex;
     flex-direction: column;
   }
